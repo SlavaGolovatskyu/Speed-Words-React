@@ -1,0 +1,45 @@
+@import "../App.module.scss";
+
+.hello {
+  background: #ffffff;
+  border-radius: 60px;
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  margin-top: 50px;
+
+  .flag {
+    padding: 15px 0;
+  }
+
+  .HelloTitle {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px 0;
+  }
+
+  .HelloParagraph {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #a9acc4;
+  }
+
+  button {
+    width: 200px;
+    height: 70px;
+    background: $blue;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 60px;
+    margin: 20px 0;
+    padding: 10px 0;
+    outline: none;
+
+    &:hover {
+      background: lighten($blue, 8%);
+      transform: translateY(-1px);
+    }
+  }
+}
