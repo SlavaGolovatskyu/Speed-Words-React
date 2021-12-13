@@ -1,4 +1,4 @@
-@import "../App.module.scss";
+@import '../App.module.scss';
 
 .hello {
   background: #ffffff;
@@ -40,6 +40,69 @@
     &:hover {
       background: lighten($blue, 8%);
       transform: translateY(-1px);
+    }
+  }
+}
+
+.Game {
+  background: #ffffff;
+  border-radius: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  margin-top: 100px;
+
+  .GameTitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 15px;
+    color: #d3d4da;
+  }
+
+  .GameWord {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #42497b;
+  }
+
+  .GameInput {
+    width: 330px;
+    font-size: 32px;
+    margin: 10px 0;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: none;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .error {
+    border: 2px solid red;
+    color: red;
+  }
+
+  .MainInformation {
+    display: flex;
+    justify-content: space-evenly;
+
+    .GameRow {
+      padding: 10px;
+      font-size: 24px;
+
+      .timeLeft {
+        color: $blue;
+      }
+
+      .words {
+        color: $green;
+      }
     }
   }
 }
