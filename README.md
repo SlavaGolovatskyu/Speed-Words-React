@@ -1,3 +1,5 @@
+# You can play in the game of that's domain address https://slavagolovatskyu.github.io/Speed-Words-React/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
