@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Speed-Words-React/static/css/main.659e223b.chunk.css",
+    "main.js": "/Speed-Words-React/static/js/main.1e7a4475.chunk.js",
+    "main.js.map": "/Speed-Words-React/static/js/main.1e7a4475.chunk.js.map",
+    "runtime-main.js": "/Speed-Words-React/static/js/runtime-main.f33be387.js",
+    "runtime-main.js.map": "/Speed-Words-React/static/js/runtime-main.f33be387.js.map",
+    "static/js/2.f58a7948.chunk.js": "/Speed-Words-React/static/js/2.f58a7948.chunk.js",
+    "static/js/2.f58a7948.chunk.js.map": "/Speed-Words-React/static/js/2.f58a7948.chunk.js.map",
+    "index.html": "/Speed-Words-React/index.html",
+    "static/css/main.659e223b.chunk.css.map": "/Speed-Words-React/static/css/main.659e223b.chunk.css.map",
+    "static/js/2.f58a7948.chunk.js.LICENSE.txt": "/Speed-Words-React/static/js/2.f58a7948.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f33be387.js",
+    "static/js/2.f58a7948.chunk.js",
+    "static/css/main.659e223b.chunk.css",
+    "static/js/main.1e7a4475.chunk.js"
+  ]
+}
