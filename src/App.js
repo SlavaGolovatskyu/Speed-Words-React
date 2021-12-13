@@ -1,18 +1,17 @@
 import React from 'react';
 import { Hello } from './components/Hello';
 import { Game } from './components/Game';
-import styles from './App.module.scss';
+import { Result } from './components/Result';
 
 export default function App() {
   const [currentStep, setCurrentStep] = React.useState('hello');
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
   const onStart = () => {
+    if (currentIndex !== 0) {
+      setCurrentIndex(0);
+    }
     setCurrentStep('game');
-  };
-
-  const onFinish = () => {
-    setCurrentStep('result');
   };
 
   const incrementCurrentIndex = () => {
@@ -26,10 +25,12 @@ export default function App() {
         <Game
           incrementIndex={incrementCurrentIndex}
           currentIndex={currentIndex}
-          onFinish={onFinish}
+          nextStep={setCurrentStep}
         />
       )}
-      {currentStep === 'result' && <h1>Это результат</h1>}
+      {currentStep === 'result' && (
+        <Result onRestart={onStart} wordsCount={currentIndex} seconds={30} />
+      )}
     </div>
   );
 }
